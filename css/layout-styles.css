@@ -1,0 +1,70 @@
+
+
+.l-pagewrap {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.l-2of3 {
+	width: 66%;
+	background: green;	
+}
+
+.l-1of3 {
+	width: 33%;
+	background: red;
+}
+
+.l-1of4 {
+	width: 25%;
+	background: blue;	
+}
+
+
+
+.l-column {
+	float: left;
+}
+
+.l-span1 {
+	
+}
+
+.l-span2 {
+	
+}
+
+.l-pad1 {
+	padding: 32px;
+}
+
+.l-padHalf {
+	padding: 16px;
+}
+
+
+
+
+
+
+@media only screen and (max-width : 980px) {
+/* Styles */
+	.l-pagewrap {
+		width: 760px;
+		margin: 0 auto;
+	}
+}
+
+@media only screen and (max-width : 760px) {
+/* Styles */
+	.l-pagewrap {
+		width: 600px;
+		margin: 0 auto;
+	}
+	.l-1of4 {
+		width: 50%;
+		background: blue;	
+	}
+}
+
+
