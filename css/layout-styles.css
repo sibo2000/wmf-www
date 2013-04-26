@@ -1,7 +1,7 @@
 
 
 .l-pagewrap {
-	width: 960px;
+	width: 320px;
 	margin: 0 auto;
 }
 
@@ -20,10 +20,8 @@
 	background: blue;	
 }
 
-
-
 .l-column {
-	float: left;
+	width: 100%;
 }
 
 .l-span1 {
@@ -43,11 +41,23 @@
 }
 
 
+@media only screen and (min-width : 480px) {
+/* Styles */
+	.l-pagewrap {
+		width: 480px;
+		margin: 0 auto;
+	}
+	.l-1of4 {
+		width: 50%;
+		background: blue;	
+	}
+	.l-column {
+		float: left;
+	}
+}
 
 
-
-
-@media only screen and (max-width : 980px) {
+@media only screen and (min-width : 760px) {
 /* Styles */
 	.l-pagewrap {
 		width: 760px;
@@ -55,16 +65,17 @@
 	}
 }
 
-@media only screen and (max-width : 760px) {
+@media only screen and (min-width : 980px) {
 /* Styles */
 	.l-pagewrap {
-		width: 600px;
+		width:980px;
 		margin: 0 auto;
-	}
+	}	
 	.l-1of4 {
-		width: 50%;
+		width: 25%;
 		background: blue;	
 	}
 }
+
 
 
