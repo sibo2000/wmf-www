@@ -7,7 +7,7 @@
 }
 
 .l-primary {	
-	overflow: hidden;	
+	overflow: hidden;		
 }
 
 .l-secondary {
@@ -29,6 +29,9 @@
 	float: left;
 }
 
+footer {
+	clear: both;
+}
 
 
 @media only screen and (min-width : 480px) {
