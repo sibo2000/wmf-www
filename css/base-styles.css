@@ -47,14 +47,29 @@ table {
 	border-spacing: 0;
 }
 
+
 /* custom styles begin here */
 
+body {
+    font-size:100%;
+    line-height:18px;
+}
+
+p {
+    font-size:0.75em;
+	font-family:Arial, sans-serif;
+	color:#333;
+}
+
 h1 {
+	font-family: 'Signika', sans-serif;
+	font-size:2em;
 	
 }
 
 h2 {
-	
+	font-family: 'Signika', sans-serif;
+	font-size:2em;
 }
 
 
