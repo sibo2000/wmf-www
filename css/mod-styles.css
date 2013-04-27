@@ -67,14 +67,33 @@
 ------------------------------------------------------ */
 
 .mod-adBlock {
+	margin: 15px 0 0 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
+.mod-adBlock h4 {
+	border-top: 1px dashed #999;	
+	padding-top: 15px;
+}
+
+.mod-adBlock:last-child {
+	border: none;
 }
 
 .mod-adBlock h4,
 .mod-adBlock p {
-	margin-left: 15px;
+	margin: 0 15px;
 }
 
-.mod-adBlock {
-	border-top: solid 5px green;	
+@media only screen and (min-width : 480px) {
+	.mod-adBlock {
+		border-right: 1px dashed #999;
+	}
+	.mod-adBlock h4 {
+		border-top: none;	
+		padding-top: 0;
+	}
+	
 }
