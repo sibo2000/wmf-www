@@ -3,77 +3,77 @@
 .l-pagewrap {
 	width: 320px;
 	margin: 0 auto;
+	overflow: hidden;
 }
 
-.l-2of3 {
-	width: 66%;
-	background: green;	
+.l-primary {	
+	overflow: hidden;	
 }
 
-.l-1of3 {
-	width: 33%;
-	background: red;
+.l-secondary {
+	width: 100%;
+	overflow: hidden;	
 }
 
-.l-1of4 {
-	width: 25%;
-	background: blue;	
+.mod-stayBlock {
+	width: 310px;
+	float: left;
 }
 
-.l-column {
+.mod-stayBlockDouble {
 	width: 100%;
 }
 
-.l-span1 {
-	
+.mod-subBlock {
+	width: 100%;
+	float: left;
 }
 
-.l-span2 {
-	
-}
-
-.l-pad1 {
-	padding: 32px;
-}
-
-.l-padHalf {
-	padding: 16px;
-}
 
 
 @media only screen and (min-width : 480px) {
-/* Styles */
 	.l-pagewrap {
 		width: 480px;
 		margin: 0 auto;
 	}
-	.l-1of4 {
-		width: 50%;
-		background: blue;	
+	.mod-stayBlock {
+		width: 225px;
 	}
-	.l-column {
+	.mod-stayBlockDouble {
+		width: 100%;
+	}	
+	.mod-subBlock {
+		width: 240px;
 		float: left;
 	}
 }
 
-
 @media only screen and (min-width : 760px) {
-/* Styles */
 	.l-pagewrap {
 		width: 760px;
 		margin: 0 auto;
-	}
+	}	
+	.mod-stayBlock {
+		width: 365px;
+	}	
+	.mod-subBlock {
+		width: 190px;
+	}	
 }
 
-@media only screen and (min-width : 980px) {
-/* Styles */
+@media only screen and (min-width : 960px) {	
 	.l-pagewrap {
-		width:980px;
-		margin: 0 auto;
+		width:960px;		
 	}	
-	.l-1of4 {
-		width: 25%;
-		background: blue;	
+	.mod-stayBlock {
+		width: 310px;
+	}	
+	.mod-stayBlockDouble {
+		width: 620px;
+		float: left;
+	}
+	.mod-subBlock {
+		width: 240px;
 	}
 }
 

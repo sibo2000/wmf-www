@@ -1,8 +1,54 @@
 
 
-/* Main nav */
+/* ------------------------------------------------------
+
+										Main nav 
+							
+------------------------------------------------------ */
 
 .mod-mainNav {
 	
 }
 
+
+
+
+/* ------------------------------------------------------
+
+									  Mod stayBlock
+							
+------------------------------------------------------ */
+
+.mod-stayBlock {
+
+}
+
+.mod-stayBlockDouble {
+	
+}
+
+
+.mod-stayBlock p {
+	margin: 10px;
+	border-top: solid 5px red;
+}
+
+
+/* ------------------------------------------------------
+
+									  Mod subBlock
+							
+------------------------------------------------------ */
+
+.mod-subBlock {
+
+}
+
+.mod-subBlock h4,
+.mod-subBlock p {
+	margin-left: 15px;
+}
+
+.mod-subBlock {
+	border-top: solid 5px green;	
+}
