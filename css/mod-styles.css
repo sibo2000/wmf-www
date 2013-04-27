@@ -40,15 +40,15 @@
 							
 ------------------------------------------------------ */
 
-.mod-subBlock {
+.mod-adBlock {
 
 }
 
-.mod-subBlock h4,
-.mod-subBlock p {
+.mod-adBlock h4,
+.mod-adBlock p {
 	margin-left: 15px;
 }
 
-.mod-subBlock {
+.mod-adBlock {
 	border-top: solid 5px green;	
 }
