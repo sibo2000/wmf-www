@@ -7,11 +7,23 @@
 ------------------------------------------------------ */
 
 .mod-mainNav {
-	margin: 0 15px;	
+	margin: 15px;	
 }
 
 .mod-mainNav ul {
 	display: none;
+}
+
+.mod-mainNav li {
+	margin: 5px 5px 0 0;
+}
+
+.mod-mainNav a {
+	background: green;
+	color: #fff;
+	padding:5px;
+	border-radius: 5px;
+	display: block;
 }
 
 @media only screen and (min-width : 480px) {
@@ -30,6 +42,13 @@
 	}
 	#showNav {
 		display: none;
+	}
+	.mod-mainNav li {
+		margin: 0 5px 0 0;
+	}
+
+	.mod-mainNav a {
+		display: inline;
 	}
 }
 
