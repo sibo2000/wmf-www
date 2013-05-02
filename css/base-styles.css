@@ -80,7 +80,7 @@ h1 {
 }
 
 h2 {
-	font-family: 'Signika Negative', sans-serif;;  	
+	font-family: 'Signika Negative', sans-serif;	
 	font-size: 1.375em; /* 22px --> 22 ÷ 16 = 1.375 */
   	line-height: 1.0909em; /* 24px --> 24 ÷ 22 = 1.090909(09) */
 	color:#44301a;
@@ -147,4 +147,13 @@ a:focus {
 
 .read-more:after {
   content: "\00A0\000BB"; /* Insert a space then right angled-quote */
+}
+
+/* --- End of links --- */
+
+/* --- LISTS ---*/
+
+ul{
+	font-family: sans-serif;
+	font-size:1em;
 }
