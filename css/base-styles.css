@@ -52,28 +52,61 @@ table {
 
 body {
     font-size:100%;
-    line-height:18px;
+    line-height:1.5em
 }
 
 p {
-    font-size:0.75em;
-	font-family:Arial, sans-serif;
+	font-family:Sans-Serif;
 	color:#333;
+	margin-bottom:24px;
+}
+
+body > p:first-of-type {
+  	font-size: 1.125em;
+    /* 18px → 18 ÷ 16 = 1.125 */
+
+  	line-height: 1.333em;
+    /* 24px → 24 ÷ 18 = 1.3333(3) */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  	font-family:'Signika', Arial, sans-serif;
+	margin-bottom: 24px;
 }
 
 h1 {
-	font-family: 'Signika', sans-serif;
-	font-size:2em;
+	font-size:1.5em;
+	color:#333;
 }
 
 h2 {
-	font-family: 'Signika', sans-serif;
-	font-size:2em;
+	font-family: 'Signika Negative', sans-serif;;  	
+	font-size: 1.375em; /* 22px --> 22 ÷ 16 = 1.375 */
+  	line-height: 1.0909em; /* 24px --> 24 ÷ 22 = 1.090909(09) */
+	color:#44301a;
+}
+
+h3 {
+	font-size: 1.25em; /* 20px --> 20 ÷ 16 = 1.25 */
+  	line-height: 1.2em; /* 24px --> 24 ÷ 20 = 1.2 */
+	color:#333;
+}
+
+h4 {
+  	font-size: 1.125em; /* 18px --> 18 ÷ 16 = 1.125 */
+  	line-height: 1.333em; /* 24px --> 24 ÷ 18 = 1.3333333(3) */
+	color:#956537;
+}
+
+h5, h6{
+	font-size: 1em; /* 16px --> 16 ÷ 16 = 1 */
+  	line-height: 1.5em; /* 24px --> 24 ÷ 16 = 1.5 */
 }
 
 
+
 em {
-	color: red;
+	color: #b66a45;
 }
 
 input {
@@ -82,4 +115,36 @@ input {
 
 section {
 	
+}
+
+blockquote {
+  margin: 0 60px 0 45px;
+  border-left: 5px solid #ccc;
+  padding-left: 10px;
+  text-indent: -0.4em;
+}
+
+blockquote b {
+  display: block;
+  text-indent: 0;
+}
+
+/*--- LINKS ---*/
+a {
+  color: #306011;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active,
+a:focus {
+  position: relative;
+  top: 1px;
+}
+
+.read-more:after {
+  content: "\00A0\000BB"; /* Insert a space then right angled-quote */
 }
