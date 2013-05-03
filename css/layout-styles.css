@@ -90,4 +90,23 @@ footer {
 }
 
 
+/* -- Footer nav ----------------
+
+
+-------------------------------*/
+
+.mod-nav-first {
+	width: 240px;
+	float: left;
+}
+
+.mod-nav-second {
+	width: 240px;
+	float: left;
+}
+
+.mod-nav-last {
+	width: 450px;
+	float: left;
+}
 
