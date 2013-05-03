@@ -101,17 +101,17 @@ footer {
 			margin: 0 auto;
 		}
 		.mod-nav-first {
-			width: 240px;
+			width: 225px;
 			float: left;
 		}
 
 		.mod-nav-second {
-			width: 240px;
+			width: 225px;
 			float: left;
 		}
 
 		.mod-nav-last {
-			width: 480px;
+			width: 460px;
 			float: left;
 		}
 	}
@@ -122,17 +122,17 @@ footer {
 			margin: 0 auto;
 		}
 		.mod-nav-first {
-			width: 190px;
+			width: 175px;
 			float: left;
 		}
 
 		.mod-nav-second {
-			width: 190px;
+			width: 175px;
 			float: left;
 		}
 
 		.mod-nav-last {
-			width: 380px;
+			width: 340px;
 			float: left;
 		}
 	}	
@@ -142,17 +142,17 @@ footer {
 		width:960px;
 	}
 	.mod-nav-first {
-		width: 240px;
+		width: 225px;
 		float: left;
 	}
 
 	.mod-nav-second {
-		width: 240px;
+		width: 225px;
 		float: left;
 	}
 
 	.mod-nav-last {
-		width: 450px;
+		width: 460px;
 		float: left;
 	}
 }
