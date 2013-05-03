@@ -97,3 +97,25 @@
 	}
 	
 }
+
+/* ------------------------------------------------------
+
+									  Mod Nav first
+							
+------------------------------------------------------ */
+
+.mod-nav-first, .mod-nav-second, .mod-nav-last{
+	margin-left:15px;
+}
+
+.mod-nav-first ul{
+	list-style:none;
+}
+
+.mod-nav-second ul{
+	list-style:none;
+}
+
+.mod-nav-last ul{
+	list-style:none;
+}
