@@ -70,7 +70,7 @@ body > p:first-of-type {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  	font-family:'Signika', Arial, sans-serif;
+  	font-family:'Signika', sans-serif;
 	margin-bottom: 24px;
 }
 
@@ -78,14 +78,17 @@ h1 {
 	font-size:1.5em;
 	color:#333;
 	margin-left: 10px;
+	font-weight:300;
+	line-height:1.5em;
 }
 
 h2 {
-	font-family: 'Signika Negative', sans-serif;	
+	font-family: 'Signika', sans-serif;	
 	font-size: 1.375em; /* 22px --> 22 ÷ 16 = 1.375 */
   	line-height: 1.0909em; /* 24px --> 24 ÷ 22 = 1.090909(09) */
 	color:#44301a;
 	margin-left: 10px;
+	font-weight:700;
 }
 
 h3 {
@@ -99,6 +102,7 @@ h4 {
   	line-height: 1.333em; /* 24px --> 24 ÷ 18 = 1.3333333(3) */
 	color:#956537;
 	margin-left: 10px;
+	font-weight:400;
 }
 
 h5, h6{
