@@ -56,7 +56,13 @@
 
 .mod-stayBlock p {
 	margin: 10px;
-	border-top: solid 5px red;
+	/*border-top: solid 5px red;*/
+}
+
+.mod-stayBlock h3{
+	margin-left:10px;
+	margin-bottom:12px;
+
 }
 
 
@@ -87,6 +93,12 @@
 	margin: 0 15px;
 }
 
+.mod-adblock ul{
+	list-style-image:url('listarrow.gif');
+	background-repeat:no-repeat;
+	background-position: 0px 10px;
+	padding-left:10px;
+}
 @media only screen and (min-width : 480px) {
 	.mod-adBlock {
 		border-right: 1px dashed #999;
@@ -118,4 +130,20 @@
 
 .mod-nav-last ul{
 	list-style:none;
+}
+
+/* ------------------------------------------------------
+
+									  Logo
+							
+------------------------------------------------------ */
+
+h1.logo{
+	font-size:3em;
+	font-family:'Signika', sans-serif;
+}
+
+h1.logo a{
+	text-decoration:none;
+	color:#333;
 }
