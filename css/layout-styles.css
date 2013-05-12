@@ -90,4 +90,69 @@ footer {
 }
 
 
+/* -- Footer nav ----------------
 
+
+-------------------------------*/
+
+@media only screen and (min-width : 480px) {
+		.l-pagewrap{
+			width:480px;
+			margin: 0 auto;
+		}
+		.mod-nav-first {
+			width: 225px;
+			float: left;
+		}
+
+		.mod-nav-second {
+			width: 225px;
+			float: left;
+		}
+
+		.mod-nav-last {
+			width: 460px;
+			float: left;
+		}
+	}
+
+@media only screen and (min-width : 760px) {
+		.l-pagewrap{
+			width:760px;
+			margin: 0 auto;
+		}
+		.mod-nav-first {
+			width: 175px;
+			float: left;
+		}
+
+		.mod-nav-second {
+			width: 175px;
+			float: left;
+		}
+
+		.mod-nav-last {
+			width: 340px;
+			float: left;
+		}
+	}	
+
+@media only screen and (min-width : 960px) {	
+	.l-pagewrap{
+		width:960px;
+	}
+	.mod-nav-first {
+		width: 225px;
+		float: left;
+	}
+
+	.mod-nav-second {
+		width: 225px;
+		float: left;
+	}
+
+	.mod-nav-last {
+		width: 460px;
+		float: left;
+	}
+}
