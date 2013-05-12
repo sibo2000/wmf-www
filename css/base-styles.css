@@ -120,7 +120,15 @@ input {
 	
 }
 
-section {
+section h4 {
+	/* make orange */
+}
+
+footer a {
+	
+}
+
+footer a {
 	
 }
 
@@ -173,3 +181,4 @@ ul ul,
 ol ol {
   margin: 0 0 0 60px;
 }
+
