@@ -52,11 +52,11 @@ table {
 
 body {
     font-size:100%;
-    line-height:1.5em
+    line-height:1.5em;
+		font-family:Sans-Serif;
 }
 
 p {
-	font-family:Sans-Serif;
 	color:#333;
 	margin-bottom:24px;
 }
@@ -85,7 +85,7 @@ h1 {
 h2 {
 	font-family: 'Signika', sans-serif;	
 	font-size: 1.375em; /* 22px --> 22 ÷ 16 = 1.375 */
-  	line-height: 1.0909em; /* 24px --> 24 ÷ 22 = 1.090909(09) */
+  line-height: 1.0909em; /* 24px --> 24 ÷ 22 = 1.090909(09) */
 	color:#44301a;
 	margin-left: 10px;
 	font-weight:700;
@@ -93,13 +93,13 @@ h2 {
 
 h3 {
 	font-size: 1.25em; /* 20px --> 20 ÷ 16 = 1.25 */
-  	line-height: 1.2em; /* 24px --> 24 ÷ 20 = 1.2 */
+  line-height: 1.2em; /* 24px --> 24 ÷ 20 = 1.2 */
 	color:#333;
 }
 
 h4 {
-  	font-size: 1.125em; /* 18px --> 18 ÷ 16 = 1.125 */
-  	line-height: 1.333em; /* 24px --> 24 ÷ 18 = 1.3333333(3) */
+  font-size: 1.125em; /* 18px --> 18 ÷ 16 = 1.125 */
+  line-height: 1.333em; /* 24px --> 24 ÷ 18 = 1.3333333(3) */
 	color:#956537;
 	margin-left: 10px;
 	font-weight:400;
@@ -107,7 +107,7 @@ h4 {
 
 h5, h6{
 	font-size: 1em; /* 16px --> 16 ÷ 16 = 1 */
-  	line-height: 1.5em; /* 24px --> 24 ÷ 16 = 1.5 */
+  line-height: 1.5em; /* 24px --> 24 ÷ 16 = 1.5 */
 }
 
 
@@ -164,13 +164,12 @@ a:focus {
   content: "\00A0\000BB"; /* Insert a space then right angled-quote */
 }
 
-/* --- End of links --- */
+/* ===== */
 
 /* --- LISTS ---*/
 
 ul, ol {
-  	margin-bottom: 24px;
-	font-family:sans-serif;
+	margin-bottom: 24px;
 }
 
 ul {
@@ -181,4 +180,6 @@ ul ul,
 ol ol {
   margin: 0 0 0 60px;
 }
+
+
 
