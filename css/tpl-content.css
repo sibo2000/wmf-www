@@ -14,42 +14,31 @@
 	width: 100%;
 }
 
-.l-contentDouble {
-	background: green;		
-}
-.l-contentSingle {
-	background: blue;
-}
-
 @media only screen and (min-width : 480px) {
 
 }
 
 @media only screen and (min-width : 760px) {
-	.l-contentDouble {
+	.l-primary {
 		width: 540px;
 		float: left;
 	}
-	.l-contentSingle {
+	.l-secondary {
 		width: 190px;
 		float: left;
+		margin: 0;
 	}
 }
 
 @media only screen and (min-width : 960px) {
 	.l-primary {
 		margin: 0 15px;
-		width: 930px;
-	}
-	.l-secondary {
-		width: 100%;
-	}	
-	.l-contentDouble {
 		width: 620px;
 	}
-	.l-contentSingle {
+
+	.l-secondary {
 		width: 310px;
-	}
+	}	
 }
 
 

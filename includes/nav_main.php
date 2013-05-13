@@ -3,9 +3,9 @@
   <ul>
     <li>
       <?php if ($pageTitle == "Home") { ?>
-        <a class="active" href="index.php">Home</a></li>      
+        <a class="active" href="../index.php">Home</a></li>      
       <?}else{?>
-        <a href="index.php">Home</a></li>      
+        <a href="../index.php">Home</a></li>      
       <?}?>
     </li>
     <li>
