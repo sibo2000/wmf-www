@@ -17,7 +17,7 @@
   </div>
 </section>      
 <section class="l-secondary">
-  <?php include('../includes/mod_add_block.php'); ?>
+  <?php include('../content_includes/mod_add_block.php'); ?>
 </section>
 <?php include('../includes/footer.php'); ?>
 

@@ -1,4 +1,4 @@
-<?php include('../includes/head_subPage.php'); ?>
+<?php $pageTitle = "Photographers"; include('../includes/head_subPage.php'); ?>
 <?php include('../includes/header_content.php'); ?>
 <section class="l-primary">
   <div class="l-contentDouble">
@@ -17,7 +17,7 @@
   </div>
 </section>      
 <section class="l-secondary">
-  <?php include('../includes/mod_add_block.php'); ?>
+  <?php include('../content_includes/mod_add_block.php'); ?>
 </section>
 <?php include('../includes/footer.php'); ?>
 

@@ -1,7 +1,7 @@
 <!doctype html>
 <head>
 		
-	<title>West Middlewick Farm | Front end Framework</title>
+	<title><?php echo $pageTitle; ?> | West Middlewick Farm</title>
 		
 	<link rel="stylesheet" href="css/base-styles.css">
 	<link rel="stylesheet" href="css/layout-styles.css">
