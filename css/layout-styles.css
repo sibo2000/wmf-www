@@ -4,6 +4,9 @@
 	width: 320px;
 	margin: 0 auto;
 	overflow: hidden;
+	background: #fff;
+	opacity:0.9;
+	filter:alpha(opacity=90);/*IE8 and earlier*/
 }
 
 .l-primary {	
