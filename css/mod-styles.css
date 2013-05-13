@@ -243,8 +243,27 @@ h1.logo a{
 	color:#333;
 }
 
+/* ------------------------------------------------------
 
+									  L-masthead
+							
+------------------------------------------------------ */
 
+.l-masthead {
+	background: #ccc;
+	padding: 8px 12px;
+	margin-bottom: 18px;
+}
+
+.l-masthead h1 {
+	margin: 12px 0;
+}
+
+@media only screen and (min-width : 760px) {
+	.l-masthead {
+		padding: 8px 64px;
+	}
+}
 
 /* ------------------------------------------------------
 
