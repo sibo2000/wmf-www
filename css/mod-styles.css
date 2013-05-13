@@ -74,7 +74,7 @@ nav ul {
 }
 
 .mod-subNav ul {
-	background: green;
+	background: #b9cc84;
 }
 
 .mod-subNav li {
@@ -245,4 +245,32 @@ h1.logo a{
 }
 
 
+/* ------------------------------------------------------
+
+									  Footer
+							
+------------------------------------------------------ */
+
+footer{
+	overflow:hidden;
+	background-color:#201712;
+}
+
+footer nav{
+	margin-top:24px;
+}
+
+footer .l-pagewrap{
+	background-color:#201712;
+}
+
+footer nav a{
+	color:#ccc;
+}
+
+footer nav h4 a{
+	color:#d36606;
+	margin-left:-10px
+	margin-bottom:12px;
+}
 
