@@ -271,8 +271,16 @@ footer nav a{
 
 footer nav h4 a{
 	color:#d36606;
-	margin-left:-10px
-	margin-bottom:12px;
+	margin-left:-10px;
 }
 
+footer p{
+	color:#ccc;
+	margin-left:10px;
+	font-size:0.9em;
+}
 
+footer p a{
+	color:#ccc;
+	text-decoration:underline;
+}
