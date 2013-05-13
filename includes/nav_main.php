@@ -1,5 +1,5 @@
 <nav class="mod-mainNav">
-  <span id="showNav">Show Navigation</span>
+  <span id="showNav">Menu</span>
   <ul>
     <li>
       <?php if ($pageTitle == "Home") { ?>

@@ -35,6 +35,7 @@
 
 header {
 	overflow: hidden;
+	position: relative;
 }
 
 .l-masthead {

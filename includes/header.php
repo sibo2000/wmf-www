@@ -10,7 +10,7 @@
   <div class="l-pagewrap">
     <header>
       <h1 class="logo">West Middlewick Farm</h1>
-      <a href="tel:0700 879234">0700 879234</a>
+      <a class="phoneNumber" href="tel:0700 879234">0700 879234</a>
       <?php include('nav_main.php'); ?>
       <?php if ($subNav == "nav-accom") { include('nav_accom.php'); }; ?> 
       
