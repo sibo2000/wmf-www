@@ -1,5 +1,5 @@
 <?php $pageTitle = "Stay at the Farm"; include('includes/head.php'); ?>
-<?php $tpl = "stayLanding_tpl";  include('includes/header.php'); ?>
+<?php $subNav = "nav-accom"; $tpl = "stayLanding_tpl";  include('includes/header.php'); ?>
 
 <section class="l-masthead">
   <h1>Stay at West Middlewick -Camping, caravaning and self catering log cabins on a <em>working farm</em> in <em>rural Devon</em>.</h1>

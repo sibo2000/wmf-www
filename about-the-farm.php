@@ -1,5 +1,6 @@
-<?php include('includes/head.php'); ?>
-<?php include('includes/header_landing.php'); ?>
+<?php $pageTitle = "About the Farm"; include('includes/head.php'); ?>
+<?php $tpl = "content_tpl";  include('includes/header.php'); ?>
+
 <section class="l-masthead">
   <h1>About the farm</h1>
 </section>
