@@ -6,32 +6,38 @@
   <img src="" alt="lead image " />   
 </section>      
 <section class="l-secondary">
-  <h3>Photographs</h3>
+ <div id="photo-thumbs"> 
+   <h3>Photographs</h3>
     <div class="imageBox">
-         <img src="../img/photo-thumb.png">
+         <a href="../img/c3.jpg" class="fancybox" data-fancybox-group="gallery" title="Sample title 1"><img src="../img/photo-thumb.png"></a>
     </div>
     <div class="imageBox">
-        <img src="../img/photo-thumb.png">
+         <a href="../img/c1.jpg" class="fancybox" data-fancybox-group="gallery" title="Sample title 2"><img src="../img/photo-thumb.png"></a>
     </div>
     <div class="imageBox">
-         <img src="../img/photo-thumb.png">
+          <a href="../img/c3.jpg" class="fancybox" data-fancybox-group="gallery" title="Sample title 3"><img src="../img/photo-thumb.png"></a>
     </div>
     <div class="imageBox">
-        <img src="../img/photo-thumb.png">
+         <a href="../img/c3.jpg" class="fancybox" data-fancybox-group="gallery" title="Sample title 4"><img src="../img/photo-thumb.png"></a>
     </div>
     <div class="imageBox">
-         <img src="../img/photo-thumb.png">
+          <a href="../img/c3.jpg" class="fancybox" data-fancybox-group="gallery" title="Sample title 5"><img src="../img/photo-thumb.png"></a>
     </div>
     <div class="imageBox">
-        <img src="../img/photo-thumb.png">
+         <a href="../img/c3.jpg" class="fancybox" data-fancybox-group="gallery" title="Sample title 6"><img src="../img/photo-thumb.png"></a>
     </div>
     <div class="imageBox">
-         <img src="../img/photo-thumb.png">
+          <a href="../img/c3.jpg" class="fancybox" data-fancybox-group="gallery" title="Sample title 7"><img src="../img/photo-thumb.png"></a>
     </div>
     <div class="imageBox">
-        <img src="../img/photo-thumb.png">
+         <a href="../img/c3.jpg" class="fancybox" data-fancybox-group="gallery" title="Sample title 8"><img src="../img/photo-thumb.png"></a>
     </div>
-  
+</div>
+  <script>
+      $(document).ready(function() {
+          $('.fancybox').fancybox();
+      });
+  </script>
   <h3>Ready to book</h3>
   <div id="stayicons">
     <h3>--Ways to stay--</h3>
