@@ -239,20 +239,15 @@ h1.logo{
     margin: 0 20px 0 0;
 }
 
+h1.logo a{
+	text-decoration:none;
+	color:#333;
+}
+
 @media only screen and (min-width : 760px) {
 	h1.logo{
 		font-size: 3em;
 	}
-	.phoneNumber {
-		/*position: absolute;
-		right: 12px;
-		top: 24px;*/
-	}
-}
-
-h1.logo a{
-	text-decoration:none;
-	color:#333;
 }
 
 /* ------------------------------------------------------
@@ -434,11 +429,11 @@ footer p a{
 ------------------------------------------------------ */
 #channels{
 	position:absolute;
-	float:right;
 	width:300px;
 	height:30px;
-	top:24px;
-	right:15px;
+	top:40px;
+	left:0;
+	clear:both;
 }
 #channels ul{
 	margin: 0;
@@ -452,4 +447,17 @@ footer p a{
 	display:inline;
 	width:200px;
 }
+
+@media only screen and (min-width : 760px) {
+	#channels{
+		position:relative;
+		float:right;
+		width:300px;
+		height:30px;
+		top:24px;
+		margin-right:15px;
+	}
+}
+
+
 
