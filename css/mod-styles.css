@@ -406,6 +406,10 @@ footer p a{
 							
 ------------------------------------------------------ */
 
+#photo-thumbs{
+	margin-bottom:24px;
+}
+
 .imageBox img {
 	width: 60px; 
 	height: 60px;
