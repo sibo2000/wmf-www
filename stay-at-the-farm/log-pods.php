@@ -7,14 +7,39 @@
 </section>      
 <section class="l-secondary">
   <h3>Photographs</h3>
+    <div class="imageBox">
+         <img src="../img/photo-thumb.png">
+    </div>
+    <div class="imageBox">
+        <img src="../img/photo-thumb.png">
+    </div>
+    <div class="imageBox">
+         <img src="../img/photo-thumb.png">
+    </div>
+    <div class="imageBox">
+        <img src="../img/photo-thumb.png">
+    </div>
+    <div class="imageBox">
+         <img src="../img/photo-thumb.png">
+    </div>
+    <div class="imageBox">
+        <img src="../img/photo-thumb.png">
+    </div>
+    <div class="imageBox">
+         <img src="../img/photo-thumb.png">
+    </div>
+    <div class="imageBox">
+        <img src="../img/photo-thumb.png">
+    </div>
+  
   <h3>Ready to book</h3>
   <div id="stayicons">
-    <h3>Ways to stay</h3>
-    <ul>
-      <li><a class="tooltip" href="/stay-at-the-farm/camping.php"><img src="../img/campicon.png"><span class="classic"> Example</span></a></li>
-      <li><a href="/stay-at-the-farm/log-pods.php"><img src="../img/logpodicon.png" alt="Camping"></a> </li>
-      <li><a href="/stay-at-the-farm/caravaning.php"><img src="../img/caravanicon.png" alt="Camping"></a> </li>
-      <li><a href="/stay-at-the-farm/bed-and-breakfast.php"><img src="../img/campicon.png" alt="Camping"> </a></li>
+    <h3>--Ways to stay--</h3>
+    
+      <a class="tooltip" href="/stay-at-the-farm/camping.php"><img src="../img/campicon.png"><span class="classic"> Come camping</span></a>
+      <a class="tooltip" href="/stay-at-the-farm/log-pods.php"><img src="../img/logpodicon.png" alt="Camping"><span class="classic"> Come glamping</span></a>
+      <a class="tooltip"href="/stay-at-the-farm/caravaning.php"><img src="../img/caravanicon.png" alt="Camping"><span class="classic"> Come caravanning</span></a>
+      <a class="tooltip"href="/stay-at-the-farm/bed-and-breakfast.php"><img src="../img/campicon.png" alt="Camping"> <span class="classic"> Stay in B&amp;B</span></a>
   </div>
 </section>
 <?php include('../includes/footer.php'); ?>
