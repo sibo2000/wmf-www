@@ -36,7 +36,7 @@ nav ul {
 
 .mod-mainNav a:hover,
 .mod-mainNav a.active {
-	background: green;
+	background: #306011;
 	color: #fff;
 }
 
@@ -87,16 +87,17 @@ nav ul {
 		clear: both;
 		overflow: hidden;
 		display: block;
-	/*	background-image:url('img/subnav-top.png');*/
 	}
 
 	.mod-subNav ul {
-		background: #b9cc84;
+		background-image:url('../img/subnav-top.png');
+		background-repeat:repeat-x;
 		overflow: hidden;
+		height:50px;
 	}
 
 	.mod-subNav li {
-		margin: 5px 5px 0 0;
+		margin: 10px 5px 0 0;
 		float: left;
 	}
 
@@ -107,9 +108,13 @@ nav ul {
 		text-decoration: none;
 	}
 
-	.mod-subNav a:hover,
+	.mod-subNav a:hover{
+		color: #201712;
+	}
+	
 	.mod-subNav a.active {
-		color: #fff;
+		color: #201712;
+		font-weight:bold;
 	}
 	
 }
@@ -294,7 +299,7 @@ footer{
 }
 
 footer nav{
-	margin-top:24px;
+	margin-top:48px;
 }
 
 footer .l-pagewrap{
@@ -317,6 +322,7 @@ footer p{
 	color:#ccc;
 	margin-left:15px;
 	font-size:0.9em;
+	margin-top:-20px;
 }
 
 footer p a{
