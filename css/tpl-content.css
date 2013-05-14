@@ -1,8 +1,8 @@
 
 .l-pagewrap {
-	background: #fff;
-	opacity:0.9;
-	filter:alpha(opacity=90);/*IE8 and earlier*/
+	background: #f7f6f5;
+	/*opacity:0.9;*/
+	/*filter:alpha(opacity=90);/*IE8 and earlier*/
 }
 
 .l-primary {
