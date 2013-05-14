@@ -34,7 +34,7 @@
       <li><a href="">Book now</a></li>
     </ul>
   </nav>
-  <p>Copyright West Middlewick Farm. Site <a href="http:///www.madeinnorbiton.co.uk">Made in Norbiton</a></p>
+  <p>&copy; 2003-<?php echo date("Y") ?> West Middlewick Farm. Site <a href="http:///www.madeinnorbiton.co.uk">Made in Norbiton</a></p>
 </div>
 </footer>
 </body>
