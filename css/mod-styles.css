@@ -300,6 +300,7 @@ footer{
 
 footer nav{
 	margin-top:48px;
+	overflow:hidden;
 }
 
 footer .l-pagewrap{
@@ -322,7 +323,7 @@ footer p{
 	color:#ccc;
 	margin-left:15px;
 	font-size:0.9em;
-	margin-top:-20px;
+	margin-top:20px;
 }
 
 footer p a{
