@@ -110,6 +110,7 @@ nav ul {
 
 	.mod-subNav a:hover{
 		color: #201712;
+		text-decoration:underline;
 	}
 	
 	.mod-subNav a.active {
