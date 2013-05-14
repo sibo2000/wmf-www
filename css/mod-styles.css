@@ -28,13 +28,17 @@ nav ul {
 
 .mod-mainNav a {
 	color: #000;
-	padding:5px;
+	padding:5px 10px;
 	border-radius: 5px;
 	display: block;
 	text-decoration: none;
 }
 
-.mod-mainNav a:hover,
+.mod-mainNav a:hover{
+	background: #201712;
+	color: #fff;
+}
+
 .mod-mainNav a.active {
 	background: #306011;
 	color: #fff;
@@ -229,9 +233,10 @@ h1.logo{
 }
 
 .phoneNumber {
-	margin: 0 12px;
- 	font-size: 1.2em;
-	font-weight: bold;
+    color: #333333;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 0 20px 0 0;
 }
 
 @media only screen and (min-width : 760px) {
@@ -239,9 +244,9 @@ h1.logo{
 		font-size: 3em;
 	}
 	.phoneNumber {
-		position: absolute;
+		/*position: absolute;
 		right: 12px;
-		top: 24px;
+		top: 24px;*/
 	}
 }
 
@@ -421,3 +426,30 @@ footer p a{
 	margin-left:10px;
 }
 	
+	
+/* ------------------------------------------------------
+
+									  Channels
+							
+------------------------------------------------------ */
+#channels{
+	position:absolute;
+	float:right;
+	width:300px;
+	height:30px;
+	top:24px;
+	right:15px;
+}
+#channels ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+	float:right;
+}
+
+#channels ul li{
+	display:inline;
+	width:200px;
+}
+
