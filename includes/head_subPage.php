@@ -13,7 +13,7 @@
 	<script src="../js/jquery.global.js"></script>		
 	<link href='http://fonts.googleapis.com/css?family=Signika:600,300,400,700' rel='stylesheet' type='text/css'>
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
-  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
-  <script type="text/javascript" src="/fancybox/jquery.fancybox.pack.js"></script>
+  <link rel="stylesheet" href="../fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+  <script type="text/javascript" src="../fancybox/jquery.fancybox.pack.js"></script>
 			
 </head>
