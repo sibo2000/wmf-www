@@ -87,6 +87,7 @@ nav ul {
 		clear: both;
 		overflow: hidden;
 		display: block;
+	/*	background-image:url('img/subnav-top.png');*/
 	}
 
 	.mod-subNav ul {
@@ -298,6 +299,9 @@ footer nav{
 
 footer .l-pagewrap{
 	background-color:#201712;
+	background-image:url('../img/footer-top-test.png');
+	background-repeat:repeat-x;
+	background-position: 20px 0px;
 }
 
 footer nav a{
