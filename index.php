@@ -8,8 +8,12 @@
 <section class="l-primary">
   <h2>Ways to stay</h2>
   <div class="mod-stayBlock">
-<h3>Camping</h3>
+<h3><img src="img/home-egg-1.png" alt="Egg1">Camping</h3>
     <p>Situated in a 4 acre field at the end of a stone track with stunning views over Exmoor.  </p>
+    <div class="mod-stayBlock-img">
+      <img src="img/mod-stayBlock-ex-img.png">
+      <a href="#" class="button">Come camping &gt;</a>
+    </div>
   </div>
   <div class="mod-stayBlock">
 <h3>Caravanning</h3>
