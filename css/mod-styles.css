@@ -469,4 +469,34 @@ footer p a{
 }
 
 
+/* ------------------------------------------------------
 
+									  Ready to book
+							
+------------------------------------------------------ */
+.readytobook{
+	border:1px solid #e8e2dc;
+	padding:15px;
+	margin-right:15px;
+	margin-bottom:24px;
+}
+
+/* ------------------------------------------------------
+
+									 Buttons
+							
+------------------------------------------------------ */
+
+a.button {
+    display: inline-block;
+}
+
+a.button {
+    background-color: #d36606;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px 5px 5px 5px;
+    color: #FFFFFF;
+    display: inline-block;
+    padding: 0.35em 0.65em;
+	text-transform:uppercase;
+}
