@@ -20,8 +20,6 @@
                   <p>Vestibulum aliquet varius enim, et accumsan magna placerat auctor. Duis gravida varius ullamcorper. Phasellus vitae eros odio, ac luctus metus. Integer imperdiet ultricies odio, at rhoncus ante ultrices vitae. Phasellus ac tortor libero. Fusce ut sagittis dolor. Etiam sed lacus vitae orci vehicula porttitor. Duis fringilla dictum odio. Integer nec tellus diam, eu mattis urna. Curabitur risus quam, dapibus non scelerisque et, hendrerit sed urna. Maecenas ut ipsum vitae lacus molestie placerat et eget felis.</p>
                 </div>  
                 <div id="content_2" class="content">
-                  <p>TWO TTWO dolor sit amet, consectetur adipiscing elit. Ut molestie, augue in scelerisque commodo, nulla magna hendrerit tortor, et accumsan libero mauris bibendum leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam purus lectus, convallis faucibus ullamcorper condimentum, consectetur aliquam tellus. Fusce in rhoncus ligula. Cras neque dui, accumsan vitae dignissim vitae, vestibulum id arcu. Maecenas risus nulla, euismod id ornare a, bibendum vel nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque feugiat, nunc quis malesuada molestie, erat felis tempus odio, sodales auctor odio odio in nisl. Integer odio nunc, elementum ac semper porttitor, adipiscing vel felis. Vestibulum id magna eros, at ultrices odio. Suspendisse iaculis rhoncus mi et dictum. Nulla enim diam, lobortis vel vehicula vel, egestas in purus. Sed eu eros sodales ligula adipiscing dignissim.</p>
-
                   <p>Vestibulum aliquet varius enim, et accumsan magna placerat auctor. Duis gravida varius ullamcorper. Phasellus vitae eros odio, ac luctus metus. Integer imperdiet ultricies odio, at rhoncus ante ultrices vitae. Phasellus ac tortor libero. Fusce ut sagittis dolor. Etiam sed lacus vitae orci vehicula porttitor. Duis fringilla dictum odio. Integer nec tellus diam, eu mattis urna. Curabitur risus quam, dapibus non scelerisque et, hendrerit sed urna. Maecenas ut ipsum vitae lacus molestie placerat et eget felis.</p>
                 </div>  
                 <div id="content_3" class="content">
@@ -31,6 +29,7 @@
                 </div>
     </div>
   </div>
+  <p>Some sample text for testing</p>
 </section>      
 <section class="l-secondary">
  <div id="photo-thumbs"> 

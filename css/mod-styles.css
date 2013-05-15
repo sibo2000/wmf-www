@@ -548,12 +548,12 @@ ul.tabs li a {
     color:#e6ceb5;  
     padding:8px 14px 8px 14px;  
     text-decoration:none;  
-    font-size:0.9em
+    font-size:0.8em
     font-family:Verdana, Arial, Helvetica, sans-serif;  
+	font-weight:bold;
 }  
 ul.tabs li a:hover {  
     background-color:#2f343a;  
-    border-color:#2f343a;  
 }  
 ul.tabs li a.active {  
     background-color:#e8e2dc;  
@@ -573,9 +573,8 @@ ul.tabs {
 }
 
 ul.tabs li a {  
-    background-image:url(images/tab_off.jpg);  
-    background-repeat:repeat-x;    
-    background-position:bottombottom;  
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px 5px 0 0;
 }  
 ul.tabs li a.active {  
     background-image:url(images/tab_on.jpg);  
