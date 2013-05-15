@@ -39,7 +39,7 @@
       });
   </script>
   <h3>Ready to book</h3>
-  <div id="stayicons">
+  <div class="stayicons">
     <h3>--Ways to stay--</h3>
     
       <a class="tooltip" href="/stay-at-the-farm/camping.php"><img src="../img/campicon.png"><span class="classic"> Come camping</span></a>
