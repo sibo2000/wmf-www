@@ -38,7 +38,12 @@
           $('.fancybox').fancybox();
       });
   </script>
-  <h3>Ready to book</h3>
+  <div class="readytobook">
+    <h3>Ready to book</h3>
+    <p>If you would like to book a pitch or have any questions please email us at <a href="mailto:stay@westmiddlewick.co.uk">Stay@westmiddlewick.co.uk</a> or telephone: 01884 861 235. Or you can use form below.</p>
+    <a class="button" href="">Booking Form ></a>
+    
+  </div>
   <div class="stayicons">
     <h3>--Ways to stay--</h3>
     
