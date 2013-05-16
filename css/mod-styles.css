@@ -200,12 +200,25 @@ nav ul {
 	margin: 0 15px;
 }
 
-.mod-adblock ul{
-	list-style-image:url('listarrow.gif');
+.mod-adBlock ul {
+	list-style-image:url('../img/listarrow.png');
 	background-repeat:no-repeat;
 	background-position: 0px 10px;
 	padding-left:10px;
+	margin-left:20px;
+	padding-right:10px;
 }
+
+.mod-adBlock ul li a{
+	color:#333;
+	text-decoration:underline;
+	line-height:2em;
+}
+
+.mod-adBlock ul li a:hover{
+	color:#446F28;
+}
+
 @media only screen and (min-width : 480px) {
 	.mod-adBlock {
 		border-right: 1px dashed #999;
