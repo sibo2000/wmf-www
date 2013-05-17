@@ -75,7 +75,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	font-size:1.5em;
+	font-size:2em;
 	color:#333;
 	margin-left: 10px;
 	font-weight:300;
@@ -84,7 +84,7 @@ h1 {
 
 h2 {
 	font-family: 'Signika', sans-serif;	
-	font-size: 1.375em; /* 22px --> 22 ÷ 16 = 1.375 */
+	font-size: 1.75em; /* 22px --> 22 ÷ 16 = 1.375 */
   line-height: 1.0909em; /* 24px --> 24 ÷ 22 = 1.090909(09) */
 	color:#44301a;
 	margin-left: 10px;
