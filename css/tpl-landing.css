@@ -34,12 +34,13 @@
 }
 
 @media only screen and (min-width : 960px) {
-	.l-primary {
+	
+	.tpl-landing .l-primary {
 		margin: 0 15px;
 		width: 620px;
 	}
 
-	.l-secondary {
+	.tpl-landing  .l-secondary {
 		width: 310px;
 	}	
 }
