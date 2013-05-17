@@ -2,8 +2,8 @@
 <body class="tpl-content">
 <?php }elseif ($tpl == "homeLanding_tpl"){ ?>
 <body class="tpl-homeLanding">
-<?php }elseif ($tpl == "stayLanding_tpl"){ ?>
-<body class="tpl-stayLanding">
+<?php }elseif ($tpl == "landing_tpl"){ ?>
+<body class="tpl-landing">
 <?php }; ?>  
 
 

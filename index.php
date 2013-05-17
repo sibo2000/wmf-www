@@ -1,7 +1,6 @@
 <?php $pageTitle = "Home"; include('includes/head.php'); ?>
 <?php $tpl = "homeLanding_tpl";  include('includes/header.php'); ?>
 
-
 <section class="l-masthead">
   <h1>Stay at West Middlewick -Camping, caravaning and self catering log cabins on a <em>working farm</em> in <em>rural Devon</em>.</h1>
 </section>
