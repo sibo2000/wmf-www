@@ -5,7 +5,7 @@
   <h1>Stay at West Middlewick -Camping, caravaning and self catering log cabins on a <em>working farm</em> in <em>rural Devon</em>.</h1>
 </section>
 <section class="l-primary">
-  <h2>Ways to stay</h2>
+  <h2 class="home">-- Ways to stay --</h2>
   <div class="mod-stayBlock">
     <img class="egg" src="img/home-egg-1.png" alt="Egg1">
 <h3>Camping</h3>
