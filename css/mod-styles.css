@@ -139,20 +139,25 @@ nav ul {
 	
 }
 
-
-.mod-stayBlock p {
-	margin: 10px;
-	/*border-top: solid 5px red;*/
-}
-
 .mod-stayBlock h3{
 	margin-left:10px;
 	margin-bottom:12px;
 
 }
 
+.mod-stayBlock p{
+	margin-left:50px;
+	padding-right:50px;
+}
+
+.egg{
+	margin-left:15px;
+	float:left;
+	padding-right:10px;
+}
+
 .mod-stayBlock-img{
-	margin-left:-10px;
+	margin-left:50px;
 	margin-right: 15px;
 	float:left;
 }
@@ -162,7 +167,7 @@ nav ul {
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 5px 5px 5px 5px;
     bottom: 160px;
-    color: #54A4DB;
+    color: #446F28;
     display: inline-block;
     left: 20px;
     padding: 0.35em 0.65em;
@@ -172,6 +177,33 @@ nav ul {
 
 .mod-stayBlock a.button:hover{
 	color:#201712;
+}
+
+.mod-stayBlock a.doublebutton {
+  background-color: #d36606;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px 5px 5px 5px;
+    color: #fff;
+    display: inline-block;
+    left: 50px;
+    padding: 0.35em 0.65em;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.mod-stayBlock a.doublebutton:hover{
+	color:#201712;
+}
+
+.buttontext{
+	color:#666;
+	padding-top:10px;
+	font-size:0.9em;
+}
+
+.mod-stayBlockDouble .doublephoto{
+	float:right;
+	margin-right:20px;
 }
 /* ------------------------------------------------------
 
@@ -189,6 +221,12 @@ nav ul {
 .mod-adBlock h4 {
 	border-top: 1px dashed #999;	
 	padding-top: 15px;
+}
+
+.mod-adBlock img{
+	margin-left:15px;
+	width:210px; /* you can use % */
+    height: auto;
 }
 
 .mod-adBlock:last-child {
